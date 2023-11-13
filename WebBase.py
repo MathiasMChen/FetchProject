@@ -42,7 +42,7 @@ def ask_4_prediction():
 
 @app.route('/plot.png')
 def plot():
-   return Flask.send_file('plot.png')
+   return send_from_directory('static', 'plot.png')
 
 if __name__ == '__main__':
     app.run(debug=True)

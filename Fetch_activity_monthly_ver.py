@@ -72,7 +72,7 @@ for epoch in range(epochs):
     with torch.inference_mode():
       test_pred = model_0(x_test)
       test_loss = loss_(test_pred, y_test.type(torch.float))
-      if epoch % 1000 == 0:
+      if epoch % 2500 == 0:
             print("ML processing...")
 
 def generate_prediction(userInput):

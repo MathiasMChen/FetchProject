@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>My webpage!</title>
+  </head>
+  <body>
+    <h4 id='date'></h4>
+          <img src='plot.png' alt="Figure" /><br><br>
+          <p>Above is the raw image of the data points provided. Note that every data point represents the average daily receipts within the month.</p>
+        <h2>Month-base prediction</h2>
+        <form action="/ask_4_prediction" method="post">
+            <label for="userInput">Enter a date you want to estimate</label>
+            <label for="userInput"> (on or after 2020-01) (format: yyyy-mm):</label>
+            <input type="text" id="userInput" name="userInput" required>
+            <button onclick="submit">Predict</button>
+        </form>
+  </body>
+</html>

@@ -10,7 +10,8 @@ How to run:
 
 1. Download the whole directory.
 2. Make sure you have Python in your computer. If not, you can go to https://www.python.org/downloads/ for download.
-3. Open Windows Powershell.
-4. Type "python WebBase.py". You should see messages signaling that it is running.
-5. After about 10 seconds, you are expected to see the message "Running on http://127.0.0.1:5000/".
-6. Go to http://127.0.0.1:5000/. You can see a figure with an interactive input box that allows you to get prediction of any month within the range.
+3. Open Windows Powershell, and direct to the directory where you downloaded this directory.
+4. Execute "cd FetchProject" to dive inside. You can execute "ls" to make sure that WebBase.py is in the directory.
+5. Execute "python WebBase.py". You should see messages signaling that it is running.
+6. After about 10 seconds, you are expected to see the message "Running on http://127.0.0.1:5000/".
+7. Go to http://127.0.0.1:5000/. You can see a figure with an interactive input box that allows you to get prediction of any month within the range.
